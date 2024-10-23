@@ -14,7 +14,11 @@ The cc.sh script was made to quickly compile all of the java files. It derives a
 
 If the letter c is included as an argument the java files will be compiled without packaging into a jar file. All compiled class files will be added to a bin directory.
 
+`./cc.sh c`
+
 Without the c argument, the java files will be compiled and packaged into a jaws.jar file. A manifest.mf file will be used to point to the main class within the jar file.
+
+`./cc.sh`
 
 Refer to the cc.sh script for the specific compilation commands.
 
